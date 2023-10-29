@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+    box-shadow:  0 10px 30px rgba(0,0,0,0.1);
+    cursor: pointer;
+
+}
+&::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(images/developer\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.25;
+
+}
+ .container h2{
+    font-weight: 500;
+    color: red;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+.list li{
+    color: red;
+    padding: 20px;
+}
+.btn{
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+    background-color: rgb(82, 242, 82);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+}
+.page-text{
+    margin: 150px 50px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.text h2{
+    font-size: 2.5rem;
+    width: 550px;
+}
+.text h2 span{
+    color: orangered;
+}
+.text p{
+    font-size: 0.9rem;
+    margin-top: 30px;
+}
+#line-span{
+    position: relative;
+}
+#line-span{
+    width: 200px;
+    height: 0px;
+    color: red;
+    top: 50%;
+    left: 0%;
+}
+button{
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.btn-group{
+    margin-top: 20px;
+}
+
+
